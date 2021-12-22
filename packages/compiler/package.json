@@ -1,0 +1,25 @@
+{
+  "name": "@MyVue/compiler",
+  "version": "1.0.0",
+  "description": "@MyVue/compiler",
+  "main": "index.js",
+  "module": "dist/compiler.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buildOptions": {
+    "name": "VueCompiler",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@MyVue/reactivity": "workspace:^1.0.0",
+    "@MyVue/shared": "workspace:^1.0.0"
+  }
+}

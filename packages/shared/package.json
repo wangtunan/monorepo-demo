@@ -1,0 +1,23 @@
+{
+  "name": "@MyVue/shared",
+  "version": "1.0.0",
+  "description": "@MyVue/shared",
+  "main": "index.js",
+  "module": "dist/shared.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buildOptions": {
+    "name": "VueShared",
+    "formats": [
+      "esm",
+      "cjs"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

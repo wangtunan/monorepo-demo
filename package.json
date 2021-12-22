@@ -1,0 +1,19 @@
+{
+  "name": "MyVue",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "13.0.6",
+    "execa": "5.1.1",
+    "rollup": "^2.61.1"
+  }
+}
