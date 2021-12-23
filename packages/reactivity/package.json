@@ -4,6 +4,7 @@
   "description": "@MyVue/reactivity",
   "main": "index.js",
   "module": "dist/reactivity.esm.js",
+  "unpkg": "dist/reactivity.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -4,6 +4,7 @@
   "description": "@MyVue/compiler",
   "main": "index.js",
   "module": "dist/compiler.esm.js",
+  "unpkg": "dist/compiler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
